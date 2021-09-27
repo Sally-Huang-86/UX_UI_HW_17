@@ -1,0 +1,120 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 33.3333333333%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+}
+
+.main-section {
+    height: 800px;
+    width: 33.3333333333%;
+
+}
+
+.bggreen {
+    background-color: #D8E2DC;
+}
+
+.bgimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.title-left {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    /* z-index: 2; */
+}
+
+.title-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    /* z-index: 2; */
+    height: 260px;
+    width: 260px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    text-align: center;
+
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+    /* z-index: 2; */
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    background-color: white;
+}
+
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    flex-wrap: wrap;
+    top: 70%;
+    /* left: 65%; */
+    padding-left: 30px;
+    width: 300px;
+}
